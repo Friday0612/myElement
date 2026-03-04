@@ -16,18 +16,18 @@ Toy Element is a Vue 3 + TypeScript component library demo project, organized wi
 
 ```text
 .
-©À©¤ packages/
-©¦  ©À©¤ core/          # library entry package: `toy-element`
-©¦  ©À©¤ components/    # component source code
-©¦  ©À©¤ hooks/         # reusable hooks
-©¦  ©À©¤ utils/         # utility functions
-©¦  ©À©¤ theme/         # styles
-©¦  ©À©¤ locale/        # i18n resources
-©¦  ©À©¤ play/          # local playground (Vite app)
-©¦  ©¸©¤ docs/          # VitePress docs site
-©À©¤ libs/             # internal build/doc plugins
-©À©¤ pnpm-workspace.yaml
-©¸©¤ package.json      # workspace scripts
+packages/
+ core/          # library entry package: `toy-element`
+ components/    # component source code
+ hooks/         # reusable hooks
+ utils/         # utility functions
+ theme/         # styles
+ locale/        # i18n resources
+ play/          # local playground (Vite app)
+ docs/          # VitePress docs site
+ libs/             # internal build/doc plugins
+ pnpm-workspace.yaml
+ package.json      # workspace scripts
 ```
 
 ## Requirements
