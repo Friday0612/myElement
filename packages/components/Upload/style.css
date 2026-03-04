@@ -1,0 +1,80 @@
+
+/* 根容器：行内块，适配按钮布局 */
+.er-upload {
+  display: inline-block;
+}
+
+/* 隐藏原生input */
+.er-upload__input {
+  display: none;
+}
+
+/* 上传触发区域：模拟按钮样式 */
+.er-upload__trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #606266;
+  transition: all 0.2s ease;
+}
+
+/* hover态：边框/文字变色 */
+.er-upload__trigger:hover {
+  border-color: #409eff;
+  color: #409eff;
+}
+
+/* 禁用态：降低透明度，禁止指针 */
+.er-upload.is-disabled .er-upload__trigger {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* 文件列表：重置默认样式 */
+.er-upload__list {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 文件项：flex布局，对齐元素 */
+.er-upload__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+/* 文件名：自动换行/省略 */
+.er-upload__name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 状态文字：灰色 */
+.er-upload__status {
+  color: #909399;
+}
+
+/* 删除按钮：无样式，红色叉号 */
+.er-upload__remove {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #f56c6c;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* 删除按钮禁用态 */
+.er-upload__remove:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
