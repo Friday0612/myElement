@@ -7,9 +7,9 @@ import apiTable from "vitepress-api-table";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Toy-Element",
-  description: "高仿 ElementPlus 组件库",
-  base: "/toy-element/",
+  title: "myElement",
+  description: " myElement 组件库",
+  base: "/myElement/",
   appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -34,7 +34,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/EricWXY/toy-element" },
+      { icon: "github", link: "https://github.com/Friday0612/myElement" },
     ],
   },
   markdown: {
